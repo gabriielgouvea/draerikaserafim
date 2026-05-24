@@ -22,11 +22,11 @@ export default function Hero() {
         src="/images/clinica-fundo.png"
         alt=""
         fill
-        className="object-cover object-[75%_center] lg:object-[85%_center]"
+        className="object-cover object-[10%_center] lg:object-[15%_center]"
         priority
       />
       {/* Overlay degradê — opaco no lado do texto, translúcido no lado da foto */}
-      <div className="absolute inset-0 bg-gradient-to-r from-cream/95 via-cream/82 to-cream/55 lg:to-cream/40" />
+      <div className="absolute inset-0 bg-gradient-to-r from-cream/90 via-cream/75 to-cream/50 lg:to-cream/35" />
       <div className="absolute inset-0 bg-gradient-to-b from-cream/30 via-transparent to-cream/50" />
       <div className="absolute inset-0 bg-grid-subtle opacity-20" />
 
