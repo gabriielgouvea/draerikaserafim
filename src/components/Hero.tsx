@@ -19,7 +19,7 @@ export default function Hero() {
     <section className="relative min-h-[100svh] flex items-center overflow-hidden bg-cream">
       {/* Foto de fundo da clínica */}
       <Image
-        src="/images/clinica-fundo.png"
+        src="/images/clinica-fundo-v2.png"
         alt=""
         fill
         className="object-cover object-[10%_center] lg:object-[15%_center]"
