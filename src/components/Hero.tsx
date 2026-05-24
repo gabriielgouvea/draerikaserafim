@@ -22,7 +22,7 @@ export default function Hero() {
         src="/images/clinica-fundo.png"
         alt=""
         fill
-        className="object-cover object-center lg:object-[72%_center]"
+        className="object-cover object-[75%_center] lg:object-[85%_center]"
         priority
       />
       {/* Overlay degradê — opaco no lado do texto, translúcido no lado da foto */}
