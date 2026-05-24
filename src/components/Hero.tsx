@@ -114,7 +114,7 @@ export default function Hero() {
                 Biomédica Esteta
               </span>
               <span className="text-gold/70 text-[0.6rem] sm:text-[0.65rem] font-medium tracking-[0.2em] uppercase text-center sm:text-left">
-                Alphaville &amp; Osasco
+                Alphaville · Barueri — SP
               </span>
             </motion.div>
 
@@ -184,7 +184,7 @@ export default function Hero() {
             >
               {[
                 { value: '+30', label: 'Anos de Experiência' },
-                { value: '+3.000', label: 'Clientes Satisfeitos' },
+                { value: '+15.000', label: 'Clientes Satisfeitos' },
               ].map((item, i) => (
                 <div key={item.label} className="flex items-center gap-6 sm:gap-8">
                   {i > 0 && <div className="w-px h-10 bg-beige-darker" />}

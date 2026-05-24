@@ -98,9 +98,9 @@ const procedures = [
       </svg>
     ),
     title: 'Subcisão',
-    subtitle: 'Tratamento de Cicatrizes & Sulcos',
+    subtitle: 'Tratamento Exclusivo para Celulite',
     description:
-      'Técnica minimamente invasiva com agulha especial que rompe as fibras responsáveis pela depressão na pele, tratando cicatrizes de acne, sulcos e irregularidades com alta eficácia.',
+      'Técnica minimamente invasiva com agulha especial indicada exclusivamente para o tratamento de celulite. Rompe as fibras responsáveis pela depressão na pele, promovendo superfície mais lisa e uniforme com resultados altamente eficazes.',
     badge: 'Especializado',
     image: '/images/proc-subcisao.jpg',
   },
@@ -236,7 +236,7 @@ export default function Procedures() {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2.5 px-8 py-3.5 bg-gradient-to-r from-gold-dark via-gold to-gold-light text-white font-semibold text-sm tracking-wide rounded-full hover:shadow-gold-lg hover:-translate-y-1 active:scale-95 transition-all duration-300 btn-shimmer btn-ring"
           >
-            Agende sua Avaliação Gratuita
+            Agende sua Avaliação
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>

@@ -25,7 +25,7 @@ const config: Config = {
         cream: '#EAE0CF',
         'dark-primary': '#1C1C1E',
         'dark-secondary': '#3A3A3C',
-        'dark-muted': '#8E8E93',
+        'dark-muted': '#4A4A50',
         'warm-dark': '#1A1714',
       },
       fontFamily: {

@@ -23,7 +23,7 @@ const credentials = [
           d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
       </svg>
     ),
-    value: '+3.000',
+    value: '+15.000',
     unit: '',
     label: 'Clientes Satisfeitos',
   },
@@ -56,13 +56,11 @@ const pillars = [
     icon: (
       <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5}
-          d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5}
-          d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+          d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
       </svg>
     ),
-    title: 'Olhar atento a cada detalhe',
-    text: 'Nenhum rosto é igual. Por isso, cada avaliação começa com uma escuta profunda e uma análise minuciosa das proporções, do histórico e dos objetivos únicos de cada paciente.',
+    title: 'Tecnologia e ciência a seu favor',
+    text: 'Utilizo os equipamentos e protocolos mais avançados disponíveis no mercado, sempre aliados ao rigor científico e à constante atualização técnica para garantir resultados seguros e duradouros.',
   },
   {
     icon: (
@@ -142,7 +140,12 @@ export default function About() {
                 </div>
 
                 {/* Tag — CRBio */}
-                <div className="absolute -bottom-6 left-6 right-6 bg-white rounded-xl px-5 py-4 shadow-premium border border-beige-dark flex items-center gap-3.5">
+                <a
+                  href="https://crbm1.gov.br/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="absolute -bottom-6 left-6 right-6 bg-white rounded-xl px-5 py-4 shadow-premium border border-beige-dark flex items-center gap-3.5 hover:border-gold/40 transition-colors duration-200"
+                >
                   <div className="w-10 h-10 rounded-full bg-gold-50 border border-gold/30 flex items-center justify-center shrink-0">
                     <svg className="w-5 h-5 text-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5}
@@ -151,9 +154,9 @@ export default function About() {
                   </div>
                   <div>
                     <div className="font-serif text-dark-primary font-semibold text-sm">Biomédica Esteta</div>
-                    <div className="text-dark-muted text-xs tracking-wide">CRBio 63838 · SP</div>
+                    <div className="text-dark-muted text-xs tracking-wide">CRBm 63838</div>
                   </div>
-                </div>
+                </a>
               </div>
             </motion.div>
 
@@ -191,9 +194,8 @@ export default function About() {
                   sem artificialidades ou excessos.
                 </p>
                 <p>
-                  Atendo nas unidades de{' '}
-                  <span className="text-gold font-medium">Alphaville</span> e{' '}
-                  <span className="text-gold font-medium">Osasco (SP)</span>, com um
+                  Atendo na unidade de{' '}
+                  <span className="text-gold font-medium">Alphaville · Barueri (SP)</span>, com um
                   atendimento personalizado, sofisticado e pautado na segurança e na ciência.
                 </p>
               </div>

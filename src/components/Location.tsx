@@ -11,26 +11,9 @@ const locations = [
     badge: 'Unidade Principal',
     region: 'Alphaville · Barueri — SP',
     note: 'Endereço exato informado no agendamento',
-    hours: [
-      { day: 'Segunda a Sexta', time: '09h às 18h' },
-      { day: 'Sábado', time: '09h às 13h' },
-    ],
+    hours: [],
     phone: '(83) 98891-5177',
     mapUrl: 'https://maps.google.com/?q=Alphaville,Barueri,SP',
-  },
-  {
-    id: 'osasco',
-    city: 'Osasco',
-    state: 'SP',
-    badge: 'Segunda Unidade',
-    region: 'Osasco — SP',
-    note: 'Endereço exato informado no agendamento',
-    hours: [
-      { day: 'Terça a Quinta', time: '09h às 17h' },
-      { day: 'Sexta', time: '09h às 16h' },
-    ],
-    phone: '(83) 98891-5177',
-    mapUrl: 'https://maps.google.com/?q=Osasco,SP',
   },
 ]
 
@@ -63,12 +46,12 @@ export default function Location() {
             <span className="h-px w-10 bg-gradient-to-l from-transparent to-gold" />
           </div>
           <h2 className="font-serif text-[2.2rem] sm:text-[2.8rem] font-semibold leading-[1.18] text-dark-primary mb-5">
-            Nossas{' '}
-            <span className="italic text-gold-gradient">Unidades</span>
+            Nossa{' '}
+            <span className="italic text-gold-gradient">Unidade</span>
           </h2>
           <p className="text-dark-muted text-base sm:text-lg leading-relaxed max-w-xl mx-auto font-light">
-            Atendemos em dois endereços na Grande São Paulo, para maior comodidade
-            e acessibilidade das nossas pacientes.
+            Atendemos em Alphaville · Barueri, na Grande São Paulo, com toda a
+            comodidade e sofisticação que nossas pacientes merecem.
           </p>
         </motion.div>
 

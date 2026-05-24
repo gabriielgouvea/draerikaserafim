@@ -126,7 +126,7 @@ export default function CTAFinal() {
             'Avaliação Personalizada',
             'Sem compromisso',
             'Atendimento Premium',
-            'Alphaville & Osasco',
+            'Alphaville · Barueri',
           ].map((item, i) => (
             <span key={item} className="flex items-center gap-1.5">
               {i > 0 && <span className="w-1 h-1 rounded-full bg-gold/40 hidden sm:block" />}
