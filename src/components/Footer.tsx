@@ -161,7 +161,7 @@ export default function Footer() {
           <p className="text-white/55 text-sm text-center sm:text-left">
             © {new Date().getFullYear()} Dra. Erika Serafim. Todos os direitos reservados.
           </p>
-          <div className="flex items-center gap-5">
+          <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-5">
             <a
               href="https://crbm1.gov.br/"
               target="_blank"
@@ -170,8 +170,25 @@ export default function Footer() {
             >
               CRBm 63838
             </a>
-            <span className="w-px h-4 bg-white/10" />
+            <span className="hidden sm:block w-px h-4 bg-white/10" />
             <span className="text-white/55 text-sm">Biomédica Esteta</span>
+            <span className="hidden sm:block w-px h-4 bg-white/10" />
+            <a
+              href="https://wa.me/5511914007287"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex items-center gap-1.5 px-3 py-1 rounded-full border border-white/10 bg-white/5 hover:border-gold/30 hover:bg-gold/8 transition-all duration-200"
+            >
+              <span className="text-white/40 text-[0.7rem] tracking-wide group-hover:text-gold/70 transition-colors duration-200">
+                Desenvolvido por
+              </span>
+              <span className="text-white/60 text-[0.7rem] font-medium group-hover:text-gold transition-colors duration-200">
+                Gabriel Gouvea
+              </span>
+              <svg className="w-2.5 h-2.5 text-white/30 group-hover:text-gold/60 transition-colors duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+            </a>
           </div>
         </div>
       </div>

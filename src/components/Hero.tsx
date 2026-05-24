@@ -19,15 +19,15 @@ export default function Hero() {
     <section className="relative min-h-[100svh] flex items-center overflow-hidden bg-cream">
       {/* Foto de fundo da clínica */}
       <Image
-        src="/images/clinica-fundo-v2.png"
+        src="/images/clinica-fundo-v4.png"
         alt=""
         fill
-        className="object-cover object-[10%_center] lg:object-[15%_center]"
+        className="object-cover object-center"
         priority
       />
       {/* Overlay degradê — opaco no lado do texto, translúcido no lado da foto */}
-      <div className="absolute inset-0 bg-gradient-to-r from-cream/90 via-cream/75 to-cream/50 lg:to-cream/35" />
-      <div className="absolute inset-0 bg-gradient-to-b from-cream/30 via-transparent to-cream/50" />
+      <div className="absolute inset-0 bg-gradient-to-r from-cream/90 via-cream/68 to-cream/40 lg:to-cream/25" />
+      <div className="absolute inset-0 bg-gradient-to-b from-cream/20 via-transparent to-cream/40" />
       <div className="absolute inset-0 bg-grid-subtle opacity-20" />
 
       <div className="relative z-10 w-full max-w-7xl mx-auto px-5 sm:px-8 lg:px-12 pt-24 sm:pt-28 pb-12 sm:pb-16">
