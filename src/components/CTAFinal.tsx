@@ -101,18 +101,6 @@ export default function CTAFinal() {
             </svg>
             Agendar Consulta pelo WhatsApp
           </motion.a>
-          <motion.a
-            href="#sobre"
-            whileHover={{ scale: 1.03, borderColor: 'rgba(201,168,76,0.6)' }}
-            whileTap={{ scale: 0.97 }}
-            transition={{ type: 'spring', stiffness: 350, damping: 20 }}
-            className="inline-flex items-center justify-center gap-2.5 px-7 py-4 border-2 border-dark-primary/15 text-dark-secondary font-medium text-base rounded-2xl hover:border-gold/60 hover:text-gold transition-colors duration-300 min-h-[56px]"
-          >
-            Conheça a Dra. Erika
-            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5l7 7-7 7" />
-            </svg>
-          </motion.a>
         </motion.div>
 
         {/* Trust indicators */}
