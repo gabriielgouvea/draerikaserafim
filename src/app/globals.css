@@ -17,6 +17,13 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Corrige corte da última letra em fontes serifadas itálicas */
+.font-serif.italic,
+.font-serif .italic,
+span.italic {
+  padding-right: 0.08em;
+}
+
 body {
   background-color: var(--cream);
   color: var(--dark);
