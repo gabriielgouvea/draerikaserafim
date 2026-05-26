@@ -212,10 +212,12 @@ export default function Procedures() {
           </div>
         </div>
 
-        {/* ── Desktop: grid ── */}
-        <div className="hidden lg:grid lg:grid-cols-3 xl:grid-cols-4 gap-5">
+        {/* ── Desktop: flex wrap centralizado ── */}
+        <div className="hidden lg:flex lg:flex-wrap justify-center gap-5">
           {procedures.map((proc, i) => (
-            <ProcedureCard key={proc.title} proc={proc} i={i} inView={inView} />
+            <div key={proc.title} className="w-[calc(25%-15px)]">
+              <ProcedureCard proc={proc} i={i} inView={inView} />
+            </div>
           ))}
         </div>
 
