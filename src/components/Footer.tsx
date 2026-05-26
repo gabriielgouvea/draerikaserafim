@@ -168,7 +168,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="text-white/55 text-sm hover:text-gold-light transition-colors duration-200"
             >
-              CRBm 63838
+              CRBM 63838
             </a>
             <span className="hidden sm:block w-px h-4 bg-white/10" />
             <span className="text-white/55 text-sm">Biomédica Esteta</span>

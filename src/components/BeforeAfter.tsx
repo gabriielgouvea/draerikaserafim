@@ -8,7 +8,7 @@ import { useInView } from 'react-intersection-observer'
 const results = [
   { id: 1,  src: '/images/antesedepois1.PNG' },
   { id: 2,  src: '/images/antesedepois2.PNG' },
-  { id: 3,  src: '/images/antesedepois3.jpeg' },
+  { id: 3,  src: '/images/antesedepois3-v2.jpeg' },
   { id: 4,  src: '/images/antesedepois4.jpeg' },
   { id: 5,  src: '/images/antesedepois5.jpeg' },
   { id: 6,  src: '/images/antesedepois6.jpeg' },
@@ -16,7 +16,7 @@ const results = [
   { id: 8,  src: '/images/antesedepois8.PNG' },
   { id: 9,  src: '/images/antesedepois9.PNG' },
   { id: 10, src: '/images/antesedepois10.PNG' },
-  { id: 11, src: '/images/antesedepois11.PNG' },
+  { id: 11, src: '/images/antesedepois11-v2.jpeg' },
   { id: 12, src: '/images/antesedepois12.jpeg' },
 ]
 
@@ -146,10 +146,6 @@ export default function BeforeAfter() {
                 />
               </div>
 
-              {/* Badge */}
-              <div className="absolute top-3 left-3 bg-gold text-white text-xs font-bold tracking-wide px-3 py-1 rounded-full">
-                Resultado #{String(results[lightbox].id).padStart(2, '0')} de {results.length}
-              </div>
 
               {/* Fechar */}
               <button

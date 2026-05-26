@@ -16,7 +16,7 @@ const procedures = [
     title: 'Laser CO₂',
     subtitle: 'Renovação Cutânea Profunda',
     description:
-      'Tecnologia ablativa fracionada de última geração que promove renovação celular intensa, eliminando manchas, rugas e imperfeições com precisão e segurança.',
+      'Laser CO₂ Fracionado é uma tecnologia avançada que promove renovação profunda da pele, estímulo intenso de colágeno e melhora da flacidez, inclusive das pálpebras, além de rugas, poros, manchas e textura cutânea com precisão e segurança.',
     badge: 'Alta Tecnologia',
     image: '/images/proc-laser-co2.png',
   },
@@ -30,7 +30,7 @@ const procedures = [
     title: 'Peeling Regenerativo',
     subtitle: 'Renovação & Luminosidade',
     description:
-      'Protocolos personalizados de peeling químico e enzimático que promovem profunda renovação celular, uniformizam o tom e restituem o brilho natural da pele.',
+      'Peeling ATA com Croton promove uma renovação cutânea intensa e profunda, estimulando regeneração celular e reorganização do colágeno. Indicado para flacidez, rugas, textura irregular e aspecto craquelado da pele, proporcionando uma pele visivelmente mais firme, uniforme e rejuvenescida.',
     badge: 'Resultados Rápidos',
     image: '/images/proc-peeling.png',
   },
@@ -55,12 +55,12 @@ const procedures = [
           d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
       </svg>
     ),
-    title: 'Preenchimentos Faciais',
-    subtitle: 'Volume & Contorno Natural',
+    title: 'Harmonização Masculina',
+    subtitle: 'Definição & Traços Naturais',
     description:
-      'Aplicação precisa de ácido hialurônico para restaurar volumes, definir contornos e suavizar sulcos com extrema naturalidade — sem expressão artificial ou excessos.',
+      'A Harmonização Masculina com reestruturação facial valoriza traços fortes e naturais, promovendo mais definição, sustentação e equilíbrio ao rosto masculino. Um tratamento personalizado que melhora contornos, projeção facial e sinais do envelhecimento sem perder a masculinidade.',
     badge: 'Natural',
-    image: '/images/proc-preenchimento.png',
+    image: '/images/Harmonização Masculina.jpg',
   },
   {
     icon: (

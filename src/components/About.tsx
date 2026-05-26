@@ -154,7 +154,7 @@ export default function About() {
                   </div>
                   <div>
                     <div className="font-serif text-dark-primary font-semibold text-sm">Biomédica Esteta</div>
-                    <div className="text-dark-muted text-xs tracking-wide">CRBm 63838</div>
+                    <div className="text-dark-muted text-xs tracking-wide">CRBM 63838</div>
                   </div>
                 </a>
               </div>
