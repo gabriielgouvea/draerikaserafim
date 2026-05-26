@@ -17,7 +17,9 @@
       "Bash(git add *)",
       "Bash(git commit -m ' *)",
       "Bash(git push *)",
-      "Bash(git commit *)"
+      "Bash(git commit *)",
+      "Bash(copy \"C:\\\\erika serafim\\\\public\\\\images\\\\clinica-fundo.png\" \"C:\\\\erika serafim\\\\public\\\\images\\\\clinica-fundo-v2.png\")",
+      "Bash(git restore *)"
     ]
   }
 }
