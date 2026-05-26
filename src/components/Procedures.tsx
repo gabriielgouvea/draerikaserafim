@@ -102,7 +102,7 @@ const procedures = [
     description:
       'Técnica minimamente invasiva com agulha especial indicada exclusivamente para o tratamento de celulite. Rompe as fibras responsáveis pela depressão na pele, promovendo superfície mais lisa e uniforme com resultados altamente eficazes.',
     badge: 'Especializado',
-    image: '/images/proc-subcisao.jpg',
+    image: '/images/proc-subcisao-v2.jpg',
   },
 ]
 
