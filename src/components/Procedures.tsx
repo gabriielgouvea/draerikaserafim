@@ -60,7 +60,7 @@ const procedures = [
     description:
       'A Harmonização Masculina com reestruturação facial valoriza traços fortes e naturais, promovendo mais definição, sustentação e equilíbrio ao rosto masculino. Um tratamento personalizado que melhora contornos, projeção facial e sinais do envelhecimento sem perder a masculinidade.',
     badge: 'Natural',
-    image: '/images/Harmonização Masculina.jpg',
+    image: '/images/proc-harmonizacao-masculina.jpg',
   },
   {
     icon: (
